@@ -1,3 +1,7 @@
 body {
   background-color: rgb(86, 93, 117);
 }
+
+.headtitle {
+  text-align: center;
+}

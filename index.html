@@ -4,131 +4,24 @@
     <meta charset="utf-8">
     <title>Jingbo Zhang</title>
     <link rel="stylesheet" type="text/css" href="/css/mycss.css" />
+
 </head>
 <body>
-  <h1>Jingbo Zhang</h1>
-  <div id="Box">
+  <h1 class="headtitle">Jingbo Zhang</h1>
 
-  <div id="Banner">
-<a href="/" title="Daring Fireball: Home"><img src="/graphics/logos/" alt="Daring Fireball" height="56" /></a>
-</div>
+  <div class="row no-gutters">
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
 
-<div id="Sidebar">
-  <p>By <strong>John&nbsp;Gruber</strong></p>
 
-  <ul><!--&#9733;-->
-  <li><a href="/archive/" title="Previous articles.">Archive</a></li><li><script type="text/javascript">
-  // <![CDATA[
-  function ReadCookie(name) {
-  	var nameEQ = name + "=";
-  	var ca = document.cookie.split(';');
-  	for(var i=0; i < ca.length; i++) {
-  		var c = ca[i];
-  		while (c.charAt(0)==' ') c = c.substring(1, c.length);
-  		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-  	}
-  	return null;
-  }
-  var display_linked_list = ReadCookie('displayLinkedList');
-  var li_linked = '<a href="/linked/" title="The Linked List.">Linked List<\/a>';
-  if (display_linked_list == "hide") {
-  	// Linked List is off on home page, so show it in menu:
-  	document.write(li_linked + "<\/li>\n<li>");
-  }
-  else {
-  	// Default to not putting separate LL item in sidebar:
-  }
-  // ]]>
-  </script></li>
-  <li><a href="/thetalkshow/" title="The world’s most popular podcast.">The Talk Show</a></li>
-  <li><a href="/projects/" title="Software projects, including SmartyPants and Markdown.">Projects</a></li>
-  <li><a href="/contact/" title="How to send email regarding Daring Fireball.">Contact</a></li>
-  <li><a href="/colophon/" title="About this site and the tools used to produce it.">Colophon</a></li>
-  <li><a href="/feeds/">RSS Feed</a></li>
-  <li><a href="https://twitter.com/daringfireball">Twitter</a></li>
-  <li><a href="/feeds/sponsors/">Sponsorship</a></li>
-  </ul>
 
-  <div id="SidebarMartini">
-  <a href="https://www.amazon.com/Every-Computer-Performance-Book-Computers/dp/1482657759/">
-  	<img alt="The Every Computer Performance Book" src="/martini/2018/02/every-computer-performance.jpeg" height="90">
-  </a>
-  <p>A useful and occasionally funny book about computer performance work.</p>
+
+
+
+
+    
+    <div class="col-12 col-sm-6 col-md-8">.col-12 .col-sm-6 .col-md-8</div>
+
   </div>
-
-  </div> <!-- Sidebar -->
-
-  <div id="Main">
-
-  <div class="article">
-
-  <dl>
-
-  <dt><a href="/projects/markdown/" title="Markdown project page">Markdown</a> (v1.0.1)</dt>
-  <dd>
-  <p>A text-to-HTML formatting syntax for web writers, implemented as
-  a plug-in for Movable Type, Blosxom, and BBEdit. Markdown allows you
-  to write using an easy-to-read, easy-to-write plain text format, then
-  convert it to structurally valid XHTML (or HTML).</p>
-  </dd>
-
-  <dt><a href="http://vesperapp.co/" title="Vesper">Vesper</a> (v2.0)</dt>
-  <dd>
-  <p>Vesper is a simple and elegant tool for collecting notes, ideas, things to do — anything you want to remember. Vesper lets you use tags to group related items into playlist-like collections, and now offers fast, reliable cloud-based syncing.</p>
-  </dd>
-
-
-  <dt><a href="/projects/smartypants/" title="SmartyPants project page">SmartyPants</a> (v1.5.1)</dt>
-  <dd>
-  <p>A plug-in for Movable Type, Blosxom, and BBEdit that provides smart
-  quotes and other typographic goodies.</p>
-  </dd>
-
-  <dt><a href="http://daringfireball.net/2010/08/open_urls_in_safari_tabs" title="Open URLs in Safari Tabs">Open URLs in Safari Tabs</a></dt>
-  <dd>
-  <p>A Mac OS X service that takes as input the text selection in the frontmost app. Every URL within the selected text is opened in a tab in one new window in Safari.</p>
-  </dd>
-
-  <dt><a href="/projects/mt-escapeforjson" title="EscapeForJSON">EscapeForJSON</a></dt>
-  <dd>
-  <p>A plug-in for Movable Type that escapes strings for JSON. Useful when creating templates for <a href="https://jsonfeed.org/">JSON feeds</a>.</p>
-  </dd>
-
-
-  <dt><a href="/projects/bbcolors/" title="BBColors project page">BBColors</a> (v1.0.1)</dt>
-  <dd>
-  <p>A command-line tool for saving and loading text color schemes for BBEdit and TextWrangler. Obsoleted by the built-in color scheme preferences in BBEdit 10 or later.</p>
-  </dd>
-
-  <dt><a href="/projects/csschecker/" title="CSS Syntax Checker project page">CSS Syntax Checker for BBEdit and TextWrangler</a> (v1.0.0)</dt>
-  <dd>
-  <p>A combination of Perl and AppleScript that allows you to syntax-check CSS files using the W3C’s CSS Validation Service.</p>
-  </dd>
-
-  <dt><a href="/projects/apacheconfig/" title="Apache Configuration module project page">Apache Configuration Language Module for BBEdit</a> (v1.0.7)</dt>
-  <dd>
-  <p>Syntax-coloring language module for Apache configuration files, for BBEdit 8.0 or later.</p>
-  </dd>
-
-  <dt><a href="/projects/mtconfig/" title="Movable Type Configuration module project page">Movable Type Configuration Language Module for BBEdit</a> (v1.0.2)</dt>
-  <dd>
-  <p>Syntax-coloring language module for Movable Type configuration files (‘mt.cfg’), for BBEdit 8.0 or later.</p>
-  </dd>
-
-  <dt><a href="/misc/2005/04/tiger_details" title="Tiger Details Report">Tiger Details Report</a></dt>
-  <dd>
-  <p>Notes, comments, and observations regarding changes and additions to Mac OS X 10.4.</p>
-  </dd>
-
-  <dt><a href="/projects/bbdiff/" title="bbdiff project page">bbdiff</a> (v1.1)</dt>
-  <dd>
-  <p>Command-line interface to BBEdit’s Find Differences command on Mac OS X. (Obsoleted by BBEdit 8.0's official ‘<code>bbdiff</code>’ tool (which is not based on mine), but some people still prefer using this script.)</p>
-  </dd>
-  </dl>
-
-
-
-  </div> <!-- article -->
 
 
 
